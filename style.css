@@ -1,0 +1,120 @@
+body {
+	background-color: #36393F;
+	color: #fff;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #2F3136;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 0;
+}
+
+nav {
+	margin-left: auto;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px;
+	display: block;
+	transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+	background-color: #4E525C;
+}
+
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 40px;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.command {
+	background-color: #2F3136;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.command h3 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.command p {
+	margin-bottom: 0;
+}
+
+.command code {
+	background-color: #fff;
+	padding: 2px 5px;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+footer {
+	background-color: #2F3136;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	font-size: 14px;
+}
+
+footer p {
+	margin: 0;
+}
+
+button {
+	background-color: #7289DA;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+	transform: scale(1.1);
+	background-color: #677BC4;
+}
